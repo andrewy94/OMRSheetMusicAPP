@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		42E96DE82D1CF1A000655481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E96DCA2D1CF19E00655481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E96DD12D1CF19E00655481;
+			remoteInfo = OMRSheetMusicAPP;
+		};
+		42E96DF22D1CF1A000655481 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42E96DCA2D1CF19E00655481 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42E96DD12D1CF19E00655481;
+			remoteInfo = OMRSheetMusicAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42E96DD22D1CF19E00655481 /* OMRSheetMusicAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OMRSheetMusicAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E96DE72D1CF1A000655481 /* OMRSheetMusicAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMRSheetMusicAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E96DF12D1CF1A000655481 /* OMRSheetMusicAPPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OMRSheetMusicAPPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		42E96DD42D1CF19E00655481 /* OMRSheetMusicAPP */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OMRSheetMusicAPP;
+			sourceTree = "<group>";
+		};
+		42E96DEA2D1CF1A000655481 /* OMRSheetMusicAPPTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OMRSheetMusicAPPTests;
+			sourceTree = "<group>";
+		};
+		42E96DF42D1CF1A000655481 /* OMRSheetMusicAPPUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = OMRSheetMusicAPPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42E96DCF2D1CF19E00655481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DE42D1CF1A000655481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DEE2D1CF1A000655481 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42E96DC92D1CF19E00655481 = {
+			isa = PBXGroup;
+			children = (
+				42E96DD42D1CF19E00655481 /* OMRSheetMusicAPP */,
+				42E96DEA2D1CF1A000655481 /* OMRSheetMusicAPPTests */,
+				42E96DF42D1CF1A000655481 /* OMRSheetMusicAPPUITests */,
+				42E96DD32D1CF19E00655481 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42E96DD32D1CF19E00655481 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42E96DD22D1CF19E00655481 /* OMRSheetMusicAPP.app */,
+				42E96DE72D1CF1A000655481 /* OMRSheetMusicAPPTests.xctest */,
+				42E96DF12D1CF1A000655481 /* OMRSheetMusicAPPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42E96DD12D1CF19E00655481 /* OMRSheetMusicAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E96DFB2D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPP" */;
+			buildPhases = (
+				42E96DCE2D1CF19E00655481 /* Sources */,
+				42E96DCF2D1CF19E00655481 /* Frameworks */,
+				42E96DD02D1CF19E00655481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				42E96DD42D1CF19E00655481 /* OMRSheetMusicAPP */,
+			);
+			name = OMRSheetMusicAPP;
+			packageProductDependencies = (
+			);
+			productName = OMRSheetMusicAPP;
+			productReference = 42E96DD22D1CF19E00655481 /* OMRSheetMusicAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42E96DE62D1CF1A000655481 /* OMRSheetMusicAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E96DFE2D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPPTests" */;
+			buildPhases = (
+				42E96DE32D1CF1A000655481 /* Sources */,
+				42E96DE42D1CF1A000655481 /* Frameworks */,
+				42E96DE52D1CF1A000655481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E96DE92D1CF1A000655481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				42E96DEA2D1CF1A000655481 /* OMRSheetMusicAPPTests */,
+			);
+			name = OMRSheetMusicAPPTests;
+			packageProductDependencies = (
+			);
+			productName = OMRSheetMusicAPPTests;
+			productReference = 42E96DE72D1CF1A000655481 /* OMRSheetMusicAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42E96DF02D1CF1A000655481 /* OMRSheetMusicAPPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42E96E012D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPPUITests" */;
+			buildPhases = (
+				42E96DED2D1CF1A000655481 /* Sources */,
+				42E96DEE2D1CF1A000655481 /* Frameworks */,
+				42E96DEF2D1CF1A000655481 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42E96DF32D1CF1A000655481 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				42E96DF42D1CF1A000655481 /* OMRSheetMusicAPPUITests */,
+			);
+			name = OMRSheetMusicAPPUITests;
+			packageProductDependencies = (
+			);
+			productName = OMRSheetMusicAPPUITests;
+			productReference = 42E96DF12D1CF1A000655481 /* OMRSheetMusicAPPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42E96DCA2D1CF19E00655481 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					42E96DD12D1CF19E00655481 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					42E96DE62D1CF1A000655481 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 42E96DD12D1CF19E00655481;
+					};
+					42E96DF02D1CF1A000655481 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 42E96DD12D1CF19E00655481;
+					};
+				};
+			};
+			buildConfigurationList = 42E96DCD2D1CF19E00655481 /* Build configuration list for PBXProject "OMRSheetMusicAPP" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42E96DC92D1CF19E00655481;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 42E96DD32D1CF19E00655481 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42E96DD12D1CF19E00655481 /* OMRSheetMusicAPP */,
+				42E96DE62D1CF1A000655481 /* OMRSheetMusicAPPTests */,
+				42E96DF02D1CF1A000655481 /* OMRSheetMusicAPPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42E96DD02D1CF19E00655481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DE52D1CF1A000655481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DEF2D1CF1A000655481 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42E96DCE2D1CF19E00655481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DE32D1CF1A000655481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42E96DED2D1CF1A000655481 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42E96DE92D1CF1A000655481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E96DD12D1CF19E00655481 /* OMRSheetMusicAPP */;
+			targetProxy = 42E96DE82D1CF1A000655481 /* PBXContainerItemProxy */;
+		};
+		42E96DF32D1CF1A000655481 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42E96DD12D1CF19E00655481 /* OMRSheetMusicAPP */;
+			targetProxy = 42E96DF22D1CF1A000655481 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		42E96DF92D1CF1A000655481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42E96DFA2D1CF1A000655481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42E96DFC2D1CF1A000655481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OMRSheetMusicAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42E96DFD2D1CF1A000655481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OMRSheetMusicAPP/Preview Content\"";
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42E96DFF2D1CF1A000655481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMRSheetMusicAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OMRSheetMusicAPP";
+			};
+			name = Debug;
+		};
+		42E96E002D1CF1A000655481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OMRSheetMusicAPP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OMRSheetMusicAPP";
+			};
+			name = Release;
+		};
+		42E96E022D1CF1A000655481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OMRSheetMusicAPP;
+			};
+			name = Debug;
+		};
+		42E96E032D1CF1A000655481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZCW9NRP237;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.OMRSheetMusicAPP.OMRSheetMusicAPPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OMRSheetMusicAPP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42E96DCD2D1CF19E00655481 /* Build configuration list for PBXProject "OMRSheetMusicAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E96DF92D1CF1A000655481 /* Debug */,
+				42E96DFA2D1CF1A000655481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E96DFB2D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E96DFC2D1CF1A000655481 /* Debug */,
+				42E96DFD2D1CF1A000655481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E96DFE2D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E96DFF2D1CF1A000655481 /* Debug */,
+				42E96E002D1CF1A000655481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42E96E012D1CF1A000655481 /* Build configuration list for PBXNativeTarget "OMRSheetMusicAPPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42E96E022D1CF1A000655481 /* Debug */,
+				42E96E032D1CF1A000655481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42E96DCA2D1CF19E00655481 /* Project object */;
+}
